@@ -22,3 +22,16 @@ if num % check == 0:
     print('You can divide',num,'by',check,'and the result is',int(num/check))
 else:
     print("Sorry, you can't divide",num,"by",check)
+    
+    
+#zadanie 4
+# zapytaj użytkownika o liczbę
+#wyświetl wszystkie liczby, które są dzielnikami liczba podanej przez użytkownika
+
+number = (int(input('Give me your number: ')))
+
+for i in range(1,number+1):
+    if number%i==0:
+        print('Your number is',number,'You can divide it by',i,'and the result is',\
+          int(number/i))
+
